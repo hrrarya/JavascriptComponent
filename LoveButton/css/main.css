@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.send_love {
+  width: 300px;
+  margin: auto;
+  margin-top: 200px;
+}
+.love_section {
+  background-color: white;
+  float: left;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  display: inline-block;
+  line-height: 80px;
+  position: relative;
+}
+.love_section i {
+  color: red;
+  font-size: 30px;
+}
+
+.button_section {
+  width: 400px;
+  background: red;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+}
+.button_section a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+}
+.button_section a i {
+  color: white;
+}
+.heart {
+  position: absolute;
+  color: #e7273f;
+  font-size: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fly 3s linear forwards;
+}
+.heart i {
+  font-size: 20px;
+}
+img {
+  height: 17px;
+  width: 20px;
+}
+@keyframes fly {
+  to {
+    transform: translate(-50%, -100px);
+  }
+}
